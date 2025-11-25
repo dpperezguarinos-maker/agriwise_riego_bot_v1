@@ -1,4 +1,3 @@
-import os
 import logging
 from datetime import datetime
 from time import time
@@ -21,7 +20,7 @@ from telegram.ext import (
 # CONFIGURACIÓN
 # =========================
 
-TELEGRAM_TOKEN = os.getenv("TELEGRAM_TOKEN", "").strip()
+TELEGRAM_TOKEN = os.getenv("8509302212:AAGSFXLjWlEbUYHP237fe0OWiFMpVEosnv8")
 API_BASE_URL   = "https://domiperez.com/wp-json/cr/v1"
 
 # Un bot = una finca (V1)
@@ -1863,4 +1862,5 @@ def main():
 
 if __name__ == "__main__":
     main()
+
 
